@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension version="2.5" type="template" client="site">
+    <name>Shoplab</name>
+    <creationDate>21.4.2012</creationDate>
+    <author>LineLab.org</author>
+    <authorEmail>info@linelab.org</authorEmail>
+    <authorUrl>http://www.linelab.org</authorUrl>
+    <copyright>Copyright 2011 - LineLab.org</copyright>
+  	<license>GNU General Public License version 3</license>
+  	<version>2.1</version>
+	<description>TPL_SHOPLAB_XML_DESCRIPTION</description>
+		<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>tools.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>templateDetails.xml</filename>		
+	</files>
+	<positions>
+	<position>custom</position>
+	  <position>top</position>
+	  <position>cart</position>
+	  <position>currency</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+	  <position>position-3</position>
+		<position>position-4</position>
+    <position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+    <position>position-9</position>
+    <position>position-10</position>
+    <position>position-11</position>
+    <position>position-12</position>
+		<position>footerload</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_shoplab.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_shoplab.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		<fieldset name="advanced">
+		<field name="templateWidth" type="text" default="960" 
+    label="TPL_SHOPLAB_WIDTH" description="TPL_SHOPLAB_WIDTH_DESC"> 
+    </field> 
+    <field name="leftWidth" type="text" default="245" 
+    label="TPL_LEFT_SHOPLAB_WIDTH" description="TPL_LEFT_SHOPLAB_WIDTH_DESC">
+    </field>
+    <field name="rightWidth" type="text" default="245" 
+    label="TPL_RIGHT_SHOPLAB_WIDTH" description="TPL_RIGHT_SHOPLAB_WIDTH_DESC">
+        </field>
+					<field name="sitetitle"  type="text" default="ShopLab Free VirtueMart Theme Template - Linelab.org"
+					label="TPL_SHOPLAB_FIELD_SITETITLE_LABEL"
+					description="TPL_SHOPLAB_FIELD_SITETITLE_DESC"
+					filter="string"></field>
+					<field name="display_slideshow" type="list" default="0" label="TPL_SHOPLAB_DISPLAY_SLIDESHOW" description="TPL_SHOPLAB_DISPLAY_SLIDESHOW_DESC">
+<option value="0">TPL_SHOPLAB_NO</option>
+<option value="1">TPL_SHOPLAB_YES</option>
+</field>
+<field name="frontpage" type="list" default="1" label="TPL_SHOPLAB_SHOW_FRONTAPGE" description="TPL_SHOPLAB_SHOW_FRONTAPGE_DESC">
+<option value="1">Enabled</option>
+<option value="0">Disabled</option>
+</field>
+<field name="slideshow" type="media" default="templates/shoplab/images/example.jpg" directoryimg="1" label="TPL_SHOPLAB_SLIDESHOW" description="TPL_SHOPLAB_SLIDESHOW_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
